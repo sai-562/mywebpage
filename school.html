@@ -1,0 +1,111 @@
+<html>
+<head>
+	<h1><center>SAI PUBLIC HIGH SCHOOL</center></h1>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+	.mySlides {display:none;}
+	.button {background-color:white;border-radius:40px;}
+	* {box-sizing: border-box;}
+	img {vertical-align: middle;max-width:100%;height:100%;}
+	img {max-width:100%;height:auto}
+	
+	div{
+		margin:0px 50px 0px 50px;
+	   }	
+
+	.parallax {
+  		/* The image used */
+ 		 background-image: url("white.png");
+
+ 		 /* Set a specific height */
+ 		 min-height: 500px; 
+
+  		/* Create the parallax scrolling effect */
+ 		 background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+		}
+</style>
+
+</head>
+
+
+
+<body>
+<div><div class="parallax">
+<div class="w3-content w3-section" style="max-width:500px"> 
+ 	<img><img class="mySlides" src="s2.jpg" style="width:100%"></img>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+<hr>
+<span style="padding-left:70px;">
+<button class="button" onclick="alert()">Home</button><span style="padding-left:50px";>
+<button class="button" onclick="alert()">Login</button><span style="padding-left:50px;">
+<button class="button" onclick="alert()">Admissions</button><span style="padding-left:50px;">		
+<button class="button" onclick="alert()">Faculty</button><span style="padding-left:50px;">		
+<button class="button" onclick="alert()">Academics</button><span style="padding-left:50px;">		
+<button class="button" onclick="alert()">Achivements</button><span style="padding-left:50px;">		
+<button class="button" onclick="alert()">Notifications</button><hr><br/>
+
+
+
+
+<table>
+<tr>
+	<td>
+	<img src="a.jpg" ><span style="padding-left:400px;">
+	</td>
+	<td><b>ABOUT:</b><br/><br/>
+		<b>Vision</b>:Our vision  is to empower students to acquire, demonstrate,
+			 articulate and value knowledge and skills that will support them, as life-long learners,
+			 to participate in and contribute to the global world and practise the 
+			core values of the school.<br/><br/>
+		<b>Vision</b>:Is to enable all learners' access to learning through the provision of:-<br/>
+			differentiated, in-depth and cohesive learning programs aligned to year level content and achievement standards 
+			informed by the Australian curriculum.
+	
+	 </td>
+</tr>
+</table>
+
+
+
+
+<hr>
+<span style="padding-left:100px;">
+<a href="faq.html">Faq's</a><span style="padding-left:150px;">
+	Contact Us<span style="padding-left:150px;">
+	Follow Us<span style="padding-left:150px;">
+	<a href="has.html">help and support</a><span style="padding-left:150px;">
+	<span style="padding-left:290px;">
+	Phone no:123456789<br/>
+	<span style="padding-left:290px;">
+	email:telidu@gmail.com<span style="padding-left:300px;">
+<hr>
+</div></div>
+</body>
+</html>
